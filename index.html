@@ -23,6 +23,32 @@
     overflow-x: hidden;
     min-height: 100vh;
   }
+  footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #1e2a38;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 14px;
+      box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.3);
+      z-index: 999;
+    }
+    footer img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+    footer .icons a {
+      color: white;
+      font-size: 18px;
+      margin: 0 8px;
+      text-decoration: none;
+    }
 
   /* Background animated stars */
   body::before {
@@ -431,6 +457,18 @@
       </nav>
     </section>
   </main>
+  <footer id="contact">
+    <div>
+      <img src="1.png" alt="Developer" />
+      Developed by Er. Pawan😘
+    </div>
+    <div class="icons">
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+  </footer>
 </body>
 </html>
 
